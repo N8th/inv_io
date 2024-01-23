@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Inventory Login</title>
+    <link rel="icon" type="image/x-icon" href="./images/skunk_logo.png" />
+
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <div class="hero">
+      <a href="https://setnaio.com/">
+        <img
+          src="./images/SetnaIO_Animation.gif"
+          alt="Setna IO Animation"
+          id="plane_animation"
+        />
+      </a>
+      <a href="./welcome.html">
+        <img src="./images/skunk_logo.png" alt="Skunk Logo" id="skunk_image" />
+      </a>
+    </div>
+    <div class="login_container">
+      
+      <h2 class="white_text">Login</h2>
+      <form id="login_form" onsubmit="event.preventDefault(); checkLogin();">
+        <label for="username">Username:</label><br />
+        <input type="text" id="username" name="username" /><br />
+        
+        <label for="password">Password:</label><br />
+        <input type="password" id="password" name="password" /><br /><br />
+        
+        <input type="submit" value="Login" />
+      </form>
+    </div>
+  </body>
+
+      <script src="script.js"></script>
+    </body>
+  </html>
+</html>
